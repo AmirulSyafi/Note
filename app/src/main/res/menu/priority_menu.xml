@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/all"
+        android:title="All"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/low"
+        android:title="Low"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/medium"
+        android:title="Medium"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/high"
+        android:title="High"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/urgent"
+        android:title="Urgent"
+        app:showAsAction="never" />
+</menu>

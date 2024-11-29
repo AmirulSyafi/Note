@@ -1,0 +1,26 @@
+# Gradle files
+/.gradle/
+/build/
+
+# IntelliJ IDEA / Android Studio
+/.idea/
+*.iml
+
+# Local configuration files
+/local.properties
+
+# Executables
+/gradlew
+/gradlew.bat
+
+# Log files
+*.log
+
+# Miscellaneous
+.DS_Store
+.env
+*.keystore
+
+# Exclude generated files
+*.apk
+*.aar

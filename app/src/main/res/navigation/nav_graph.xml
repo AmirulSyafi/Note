@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/noteFragment">
+
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.amirulsyafi.note.ui.note.NoteFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_note">
+        <action
+            android:id="@+id/action_noteFragment_to_noteDetailFragment"
+            app:destination="@id/noteDetailFragment" />
+        <action
+            android:id="@+id/action_noteFragment_to_assignmentFragment"
+            app:destination="@id/assignmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteDetailFragment"
+        android:name="com.amirulsyafi.note.ui.notedetail.NoteDetailFragment"
+        android:label="Note Detail"
+        tools:layout="@layout/fragment_note_detail">
+        <argument
+            android:name="note"
+            android:defaultValue="@null"
+            app:argType="com.amirulsyafi.note.data.note.Note"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/assignmentFragment"
+        android:name="com.amirulsyafi.note.ui.assignment.AssignmentFragment"
+        android:label="Assignment"
+        tools:layout="@layout/fragment_assignment" />
+</navigation>

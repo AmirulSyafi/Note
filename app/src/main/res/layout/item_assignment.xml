@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_slot_no"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|start"
+        android:paddingStart="8dp"
+        android:paddingEnd="4dp"
+        tools:text="1" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_type"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center|start"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        tools:text="MoOpAssignment" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_mo"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center|start"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        tools:text="E7-08595A" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_op"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|start"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        tools:text="2,3,4" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_smv"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|start"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        tools:text="5.6" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_ratio"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|start"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        tools:text="100,100,100" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_previous"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|start"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        tools:text="0,0,0" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_group"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|start"
+        android:paddingStart="4dp"
+        android:paddingEnd="8dp"
+        tools:text="false" />
+</LinearLayout>

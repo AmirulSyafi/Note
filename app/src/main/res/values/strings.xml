@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string-array name="dropdown_items">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Urgent</item>
+    </string-array>
+</resources>
